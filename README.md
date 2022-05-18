@@ -6,6 +6,7 @@
 - pyserial (`pip install pyserial`)
 - NCS 1.9.99 (tested on this version)
 - 2 different and compatible modem FW packages. They will be placed in the `fw` subdirectory inside the `modem_update` directory.
+- Tested on Ubuntu. Device UART0 is seen by the OS as /dev/ttyACM0. Modify as necessary in the script depending on your configuration.
 
 ## Execution
 
